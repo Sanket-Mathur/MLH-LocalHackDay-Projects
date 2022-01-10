@@ -1,0 +1,42 @@
+:root {
+    --text-theme: rgb(255, 255, 255);
+    --font: sans-serif;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+input[type="button"] {
+    background-color: rgb(60, 180, 10);
+    color: var(--text-theme);
+}
+input[type="reset"] {
+    background-color: rgb(180, 60, 10);
+    color: var(--text-theme);
+}
+select, input {
+    font-size: 2rem;
+    padding: 0.5rem;
+    border-radius: 0.6rem;
+}
+
+h1 {
+    margin: 1rem;
+    font-size: 2rem;
+    font-family: var(--font);
+}
+h2 {
+    font-size: 1.7rem;
+    font-family: var(--font);
+}

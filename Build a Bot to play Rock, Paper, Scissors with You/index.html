@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <form>
+            <table>
+                <tr>
+                    <th><h2>User</h2></th>
+                    <th rowspan="2"><h1>VS</h1></th>
+                    <th><h2>Computer</h2></th>
+                </tr>
+                <tr>
+                    <td>
+                        <select name="User" id="player">
+                            <option value="0">Rock</option>
+                            <option value="1">Paper</option>
+                            <option value="2">Scissor</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select name="User" id="computer" disabled>
+                            <option value="0">Rock</option>
+                            <option value="1">Paper</option>
+                            <option value="2">Scissor</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+            <br>
+            <input type="button" value="Play" onclick="play();">&emsp;
+            <input type="reset" value="Reset" onclick="clearResult();">
+            <br>
+            <h1 id="result">&nbsp;</h1>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

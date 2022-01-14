@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    width: 80vw;
+    margin-left: 10vw;
+    padding: 0 0 0 5rem;
+}
+
+h1 {
+    text-align: center;
+    margin: 4rem;
+}
+h2 {
+    margin: 2rem 0;
+}
+
+hr {
+    margin: 2rem;
+}

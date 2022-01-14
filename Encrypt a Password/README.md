@@ -12,19 +12,3 @@ A script to encrypt a password by reversing the string and shifting the characte
   ```
   python decrypt.py
   ```
-
-# Sample Output
-- Encrypting the message
-  ```
-  Enter an integer key: 8
-  Enter a message to encrypt: SuperSecretPassword
-  Encrypted Message:
-  lzw{{iX|mzkm[zmx}[
-  ```
-- Decrypting the message
-  ```
-  Enter an integer key: 8
-  Enter a encrypted message: lzw{{iX|mzkm[zmx}[
-  Decrypted Message:
-  SuperSecretPassord
-  ```

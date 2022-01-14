@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <h1 id="result">Player <span id="player">X</span></h1>
+        <table id="grid">
+            <tr>
+                <td onclick="play(0,0)" style="border-top: none; border-left: none;"></td>
+                <td onclick="play(0,1)" style="border-top: none;"></td>
+                <td onclick="play(0,2)" style="border-top: none; border-right: none;"></td>
+            </tr>
+            <tr>
+                <td onclick="play(1,0)" style="border-left: none;"></td>
+                <td onclick="play(1,1)"></td>
+                <td onclick="play(1,2)" style="border-right: none;"></td>
+            </tr>
+            <tr>
+                <td onclick="play(2,0)" style="border-bottom: none; border-left: none;"></td>
+                <td onclick="play(2,1)" style="border-bottom: none;"></td>
+                <td onclick="play(2,2)" style="border-bottom: none; border-right: none;"></td>
+            </tr>
+        </table>
+        <span id="reload"></span>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
